@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/TareaIDatosII.dir/main.cpp.o CMakeFiles/TareaIDatosII.dir/List.cpp.o CMakeFiles/TareaIDatosII.dir/Collector.cpp.o  -o TareaIDatosII 

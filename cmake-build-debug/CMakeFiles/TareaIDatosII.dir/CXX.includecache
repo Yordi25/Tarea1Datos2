@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yordi/Documentos/GitKraken/TareaIDatosII/Collector.h
+
+/home/yordi/Documentos/GitKraken/TareaIDatosII/List.cpp
+List.h
+/home/yordi/Documentos/GitKraken/TareaIDatosII/List.h
+Collector.h
+/home/yordi/Documentos/GitKraken/TareaIDatosII/Collector.h
+sstream
+-
+string
+-
+iostream
+-
+
+/home/yordi/Documentos/GitKraken/TareaIDatosII/List.h
+iostream
+-
+
