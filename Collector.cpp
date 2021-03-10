@@ -61,9 +61,7 @@ void Collector::AddAddress(Node* n){
     }
     length++;
 
-
-
-    .
+    
 }
 
 int Collector::getLength() {

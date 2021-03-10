@@ -63,10 +63,10 @@ RM = /home/yordi/Documentos/clion-2020.3.2/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yordi/Documentos/GitKraken/TareaIDatosII
+CMAKE_SOURCE_DIR = /home/yordi/Documentos/GitKraken/Tarea1Datos2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yordi/Documentos/GitKraken/TareaIDatosII/cmake-build-debug
+CMAKE_BINARY_DIR = /home/yordi/Documentos/GitKraken/Tarea1Datos2/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/TareaIDatosII.dir/depend.make
@@ -79,42 +79,42 @@ include CMakeFiles/TareaIDatosII.dir/flags.make
 
 CMakeFiles/TareaIDatosII.dir/main.cpp.o: CMakeFiles/TareaIDatosII.dir/flags.make
 CMakeFiles/TareaIDatosII.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yordi/Documentos/GitKraken/TareaIDatosII/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/TareaIDatosII.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TareaIDatosII.dir/main.cpp.o -c /home/yordi/Documentos/GitKraken/TareaIDatosII/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yordi/Documentos/GitKraken/Tarea1Datos2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/TareaIDatosII.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TareaIDatosII.dir/main.cpp.o -c /home/yordi/Documentos/GitKraken/Tarea1Datos2/main.cpp
 
 CMakeFiles/TareaIDatosII.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TareaIDatosII.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yordi/Documentos/GitKraken/TareaIDatosII/main.cpp > CMakeFiles/TareaIDatosII.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yordi/Documentos/GitKraken/Tarea1Datos2/main.cpp > CMakeFiles/TareaIDatosII.dir/main.cpp.i
 
 CMakeFiles/TareaIDatosII.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TareaIDatosII.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yordi/Documentos/GitKraken/TareaIDatosII/main.cpp -o CMakeFiles/TareaIDatosII.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yordi/Documentos/GitKraken/Tarea1Datos2/main.cpp -o CMakeFiles/TareaIDatosII.dir/main.cpp.s
 
 CMakeFiles/TareaIDatosII.dir/List.cpp.o: CMakeFiles/TareaIDatosII.dir/flags.make
 CMakeFiles/TareaIDatosII.dir/List.cpp.o: ../List.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yordi/Documentos/GitKraken/TareaIDatosII/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/TareaIDatosII.dir/List.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TareaIDatosII.dir/List.cpp.o -c /home/yordi/Documentos/GitKraken/TareaIDatosII/List.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yordi/Documentos/GitKraken/Tarea1Datos2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/TareaIDatosII.dir/List.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TareaIDatosII.dir/List.cpp.o -c /home/yordi/Documentos/GitKraken/Tarea1Datos2/List.cpp
 
 CMakeFiles/TareaIDatosII.dir/List.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TareaIDatosII.dir/List.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yordi/Documentos/GitKraken/TareaIDatosII/List.cpp > CMakeFiles/TareaIDatosII.dir/List.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yordi/Documentos/GitKraken/Tarea1Datos2/List.cpp > CMakeFiles/TareaIDatosII.dir/List.cpp.i
 
 CMakeFiles/TareaIDatosII.dir/List.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TareaIDatosII.dir/List.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yordi/Documentos/GitKraken/TareaIDatosII/List.cpp -o CMakeFiles/TareaIDatosII.dir/List.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yordi/Documentos/GitKraken/Tarea1Datos2/List.cpp -o CMakeFiles/TareaIDatosII.dir/List.cpp.s
 
 CMakeFiles/TareaIDatosII.dir/Collector.cpp.o: CMakeFiles/TareaIDatosII.dir/flags.make
 CMakeFiles/TareaIDatosII.dir/Collector.cpp.o: ../Collector.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yordi/Documentos/GitKraken/TareaIDatosII/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/TareaIDatosII.dir/Collector.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TareaIDatosII.dir/Collector.cpp.o -c /home/yordi/Documentos/GitKraken/TareaIDatosII/Collector.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yordi/Documentos/GitKraken/Tarea1Datos2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/TareaIDatosII.dir/Collector.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TareaIDatosII.dir/Collector.cpp.o -c /home/yordi/Documentos/GitKraken/Tarea1Datos2/Collector.cpp
 
 CMakeFiles/TareaIDatosII.dir/Collector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TareaIDatosII.dir/Collector.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yordi/Documentos/GitKraken/TareaIDatosII/Collector.cpp > CMakeFiles/TareaIDatosII.dir/Collector.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yordi/Documentos/GitKraken/Tarea1Datos2/Collector.cpp > CMakeFiles/TareaIDatosII.dir/Collector.cpp.i
 
 CMakeFiles/TareaIDatosII.dir/Collector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TareaIDatosII.dir/Collector.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yordi/Documentos/GitKraken/TareaIDatosII/Collector.cpp -o CMakeFiles/TareaIDatosII.dir/Collector.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yordi/Documentos/GitKraken/Tarea1Datos2/Collector.cpp -o CMakeFiles/TareaIDatosII.dir/Collector.cpp.s
 
 # Object files for target TareaIDatosII
 TareaIDatosII_OBJECTS = \
@@ -130,7 +130,7 @@ TareaIDatosII: CMakeFiles/TareaIDatosII.dir/List.cpp.o
 TareaIDatosII: CMakeFiles/TareaIDatosII.dir/Collector.cpp.o
 TareaIDatosII: CMakeFiles/TareaIDatosII.dir/build.make
 TareaIDatosII: CMakeFiles/TareaIDatosII.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yordi/Documentos/GitKraken/TareaIDatosII/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable TareaIDatosII"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yordi/Documentos/GitKraken/Tarea1Datos2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable TareaIDatosII"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/TareaIDatosII.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -143,6 +143,6 @@ CMakeFiles/TareaIDatosII.dir/clean:
 .PHONY : CMakeFiles/TareaIDatosII.dir/clean
 
 CMakeFiles/TareaIDatosII.dir/depend:
-	cd /home/yordi/Documentos/GitKraken/TareaIDatosII/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yordi/Documentos/GitKraken/TareaIDatosII /home/yordi/Documentos/GitKraken/TareaIDatosII /home/yordi/Documentos/GitKraken/TareaIDatosII/cmake-build-debug /home/yordi/Documentos/GitKraken/TareaIDatosII/cmake-build-debug /home/yordi/Documentos/GitKraken/TareaIDatosII/cmake-build-debug/CMakeFiles/TareaIDatosII.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yordi/Documentos/GitKraken/Tarea1Datos2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yordi/Documentos/GitKraken/Tarea1Datos2 /home/yordi/Documentos/GitKraken/Tarea1Datos2 /home/yordi/Documentos/GitKraken/Tarea1Datos2/cmake-build-debug /home/yordi/Documentos/GitKraken/Tarea1Datos2/cmake-build-debug /home/yordi/Documentos/GitKraken/Tarea1Datos2/cmake-build-debug/CMakeFiles/TareaIDatosII.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/TareaIDatosII.dir/depend
 

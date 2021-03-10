@@ -6,21 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/yordi/Documentos/GitKraken/TareaIDatosII/Collector.h
-
-/home/yordi/Documentos/GitKraken/TareaIDatosII/List.cpp
-List.h
-/home/yordi/Documentos/GitKraken/TareaIDatosII/List.h
-Collector.h
-/home/yordi/Documentos/GitKraken/TareaIDatosII/Collector.h
+/home/yordi/Documentos/GitKraken/Tarea1Datos2/Collector.cpp
+iostream
+-
 sstream
 -
 string
 -
-iostream
--
+Collector.h
+/home/yordi/Documentos/GitKraken/Tarea1Datos2/Collector.h
 
-/home/yordi/Documentos/GitKraken/TareaIDatosII/List.h
-iostream
--
+/home/yordi/Documentos/GitKraken/Tarea1Datos2/Collector.h
 
