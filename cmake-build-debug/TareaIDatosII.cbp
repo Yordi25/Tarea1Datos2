@@ -94,6 +94,12 @@
 		<Unit filename="/home/yordi/Documentos/GitKraken/Tarea1Datos2/List.h">
 			<Option target="TareaIDatosII"/>
 		</Unit>
+		<Unit filename="/home/yordi/Documentos/GitKraken/Tarea1Datos2/Node.cpp">
+			<Option target="TareaIDatosII"/>
+		</Unit>
+		<Unit filename="/home/yordi/Documentos/GitKraken/Tarea1Datos2/Node.h">
+			<Option target="TareaIDatosII"/>
+		</Unit>
 		<Unit filename="/home/yordi/Documentos/GitKraken/Tarea1Datos2/main.cpp">
 			<Option target="TareaIDatosII"/>
 		</Unit>

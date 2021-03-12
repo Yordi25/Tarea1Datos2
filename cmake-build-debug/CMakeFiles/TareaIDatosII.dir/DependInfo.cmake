@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/yordi/Documentos/GitKraken/Tarea1Datos2/Collector.cpp" "/home/yordi/Documentos/GitKraken/Tarea1Datos2/cmake-build-debug/CMakeFiles/TareaIDatosII.dir/Collector.cpp.o"
   "/home/yordi/Documentos/GitKraken/Tarea1Datos2/List.cpp" "/home/yordi/Documentos/GitKraken/Tarea1Datos2/cmake-build-debug/CMakeFiles/TareaIDatosII.dir/List.cpp.o"
+  "/home/yordi/Documentos/GitKraken/Tarea1Datos2/Node.cpp" "/home/yordi/Documentos/GitKraken/Tarea1Datos2/cmake-build-debug/CMakeFiles/TareaIDatosII.dir/Node.cpp.o"
   "/home/yordi/Documentos/GitKraken/Tarea1Datos2/main.cpp" "/home/yordi/Documentos/GitKraken/Tarea1Datos2/cmake-build-debug/CMakeFiles/TareaIDatosII.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

@@ -6,70 +6,38 @@
 #include <sstream> //for std::stringstream
 #include <string>  //for std::string
 #include "Collector.h"
+#include "Node.h"
 
 using namespace std;
 
-class Node;
+Collector* Collector::colector = 0;
 
-/*
- * Clase que forma la lista Collector
- */
-AddressNode::AddressNode(){
-    value = 0;
-    next = 0;
-}
-
-AddressNode* AddressNode::getNext(){
-    return next;
-}
-
-void AddressNode::setNext(AddressNode* nodo){
-    next = nodo;
-}
-
-Node* AddressNode::getValue(){
-    return value;
-}
-
-void AddressNode::setValue(Node* node){
-    value = node;
-}
-
-/*
- * Clase que almacena direcciones para reciclar nodos de la clase List
- */
-
-//Collector *Collector::colectorInst = nullptr;
-
-Collector::Collector(){
+Collector::Collector() {
     head = 0;
     length = 0;
 }
 
-/*
- * Almacena la dirección de un nodo de la clase List.
- */
-void Collector::AddAddress(Node* n){
-    AddressNode* tmp = new AddressNode();
-    tmp->setValue(n);
-    tmp->setNext(NULL);
-    if (length == 0) {
-        head = tmp;
-    } else {
-        tmp->setNext(head);
-        head = tmp;
+Collector* Collector::getCollector() {
+    if(colector == 0){
+        colector = new Collector();
     }
-    length++;
+    return colector;
+}
 
-    
+void Collector::AddDeletedNode(void* voidPtr){
+    Node* nodePtr = (Node*)voidPtr;
+    nodePtr->setValue(NULL);
+    nodePtr->setNext(head);
+    head = nodePtr;
+    length++;
 }
 
 int Collector::getLength() {
     return length;
 }
 
-Node* Collector::getUsedNode() {
-    Node* tmp = head->getValue();
+void* Collector::getDeletedNode() {
+    void* tmp = (void*)head;
     deleteNode();
     return tmp;
 }
@@ -78,12 +46,12 @@ Node* Collector::getUsedNode() {
  * Elimina un elemento del Collector
  */
 void Collector::deleteNode() {
-    AddressNode *tmp = head;
+    Node* tmp = head;
     head = head->getNext();
     tmp->setNext(0);
-    delete tmp;
     length--;
 }
+
 
 /*
  * Imprime los elementos de la lista Collector.
@@ -92,13 +60,13 @@ void Collector::print(){
     if (length == 0) {
         cout << "Lista Collector vacía" << endl;
     } else {
-        AddressNode *temp = head; //Aquí no tendría que eliminar el temp luego?
+        Node *temp = head; //Aquí no tendría que eliminar el temp luego?
         string text = "Direcciones alamcenadas en el Collector: [";
         for (int i = 0; i < length; i++) {
-            const Node* address = static_cast<const Node*>(temp->getValue());
+            const Node* address = static_cast<const Node*>(temp);
             std::stringstream ss;
             ss << address;
-            string name = ss.str();
+            std::string name = ss.str();
             text += " " + name;
             temp = temp->getNext();
         }

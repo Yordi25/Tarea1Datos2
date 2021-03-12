@@ -1,4 +1,4 @@
-#include <iostream>
+
 #include "List.h"
 #include "Collector.h"
 
@@ -13,11 +13,11 @@ int main() {
     lista.deleteInPos(0);
     lista.deleteInPos(1);
     lista.print();
-    colector->print();
+    Collector::getCollector()->print();
     lista.add(7);
     lista.add(7);
     lista.add(7);
     lista.printAddress();
-    colector->print();
+    Collector::getCollector()->print();
     return 0;
 }

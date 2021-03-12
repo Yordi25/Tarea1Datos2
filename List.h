@@ -7,20 +7,7 @@
 
 
 #include <iostream>
-
-class Node{
-private:
-    int value;
-    Node *next;
-public:
-    Node();
-    Node* getNext();
-    void setNext(Node* nodo);
-    int getValue();
-    void setValue(int num);
-    void * operator new(size_t size);
-    void operator delete(void* pVoid);
-};
+#include "Node.h"
 
 class List{
 private:

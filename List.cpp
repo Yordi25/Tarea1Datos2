@@ -10,42 +10,7 @@
 
 using namespace std;
 
-Node::Node()
-{
-    next = 0;
-    value = 0;
-}
 
-Node* Node::getNext(){
-    return next;
-}
-
-void Node::setNext(Node* nodo){
-    next = nodo;
-}
-int Node::getValue(){
-    return value;
-}
-
-void Node::setValue(int num){
-    value = num;
-}
-
-void* Node::operator new(size_t size){
-    void* p;
-    if(colector->getLength() > 0){
-        p = colector->getUsedNode();
-    }
-    else{
-        p = malloc(size);
-    }
-    return p;
-}
-
-void Node::operator delete(void* pVoid){
-    Node* ptr = (Node*) pVoid;
-    colector->AddAddress(ptr);
-}
 
 /*
  * Clase List que almacena numeros (int). Formada por nodos de la clase Node
@@ -135,8 +100,8 @@ void List::deleteInPos(int pos){
                 for (int i = 0; i != pos - 1; i++) {
                     tmp = tmp->getNext();
                 }
-                delete tmp->getNext();
                 tmp->setNext(tmp->getNext()->getNext());
+                delete tmp->getNext();
             }
             length--;
         }

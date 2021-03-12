@@ -3,4 +3,4 @@ project(TareaIDatosII)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(TareaIDatosII main.cpp List.cpp List.h Collector.cpp Collector.h)
+add_executable(TareaIDatosII main.cpp List.cpp List.h Collector.cpp Collector.h Node.cpp Node.h)
